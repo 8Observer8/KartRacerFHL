@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --watch --mode=development --info-verbosity=verbose"
+    "start": "node dist/server.js",
+    "start-dev": "webpack --watch --mode=development --info-verbosity=verbose"
   },
   "author": "",
   "license": "ISC",
