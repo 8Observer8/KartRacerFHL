@@ -15,7 +15,7 @@ interface ISocket extends sio.Socket {
     }
 }
 
-var port = 3000;
+var port = process.env.PORT || 3000;
 var pingMS = 100;
 
 // Basic express webserver
